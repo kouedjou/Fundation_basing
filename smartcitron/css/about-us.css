@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:15px;
+	color:#6a6a6a;
+}
+
+ul.button-group.right li{
+	display:inline;
+	padding-right: 15px;
+	padding-top: 30px;
+	font-size:10px;
+}
+.button-group.right li.pages a{
+	color:#269cd2;    /* unvisited link */
+}
+.button-group.right li a{
+	color:#000;    /* unvisited link */
+}
+.button-group.right li{
+	font-weight: bold;
+}
+div.row.upper-footer{
+	background-color:#f0f0f0;
+	max-height: 40px;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	max-width: 100% !important;
+}
+div.row.upper-footer img{
+	float:left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 112px;
+}
+div.row.upper-footer p{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+footer.row.footer2{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	max-width: 100% !important;
+	background-color: #3d4345;
+}
+div.row.four-columns{
+	display:inline-block;
+}
+div.contact-info{
+	margin-top: 27px;
+	padding-left:15px;
+}
+div.contact-info p{
+	font-size:12px;
+	margin-left: -20px;
+	color:#fff;
+}
+h4{
+	color:#fff;
+}
+div.recent-post{
+	margin-top: 27px;
+}
+div.recent-post p{
+	font-size:12px;
+	color:#fff;
+}
+div.newsletter{
+	margin-top: 27px;
+}
+div.newsletter p{
+	font-size:12px;
+	color:#fff;
+}
+div.follow-us{
+	margin-top: 27px;
+}
+div.follow-us p{
+	font-size:12px;
+	color:#fff;
+}
+div.recent-post div.second-div{
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-bottom-color:#505759;
+	border-top-color:#505759;
+}
+div.recent-post div.second-div p{
+	padding-top: 10px;
+}
+div.row.submitbar button{
+	font-size: 8px !important;
+	margin-left: -15px;
+}
+footer.row.bottom{
+	background-color:#303436;
+	max-width: 100% !important;
+}
+footer.row.bottom div.large-6.columns img{
+	float: left;
+	margin-top: 17px;
+	margin-left: 105px;
+}
+footer.row.bottom div.large-6.columns p{
+	float: right;
+	font-size: 15px;
+	margin-top: 15px;
+	color:#a1a1a1;
+}
+footer.row.bottom div.large-6.columns ul.inline-list.right{
+	font-size: 15px;
+	margin-top: 17px;
+	margin-right: 145px;
+}
+ul.inline-list.right li a{
+	color:#89898a;
+}
+ul.inline-list.right li.sitemap a{
+	color:#FFF;
+}
+footer.row.footer2 div.large-10.large-centered.columns{
+	padding-bottom:30px;
+}
+.welcoming-text{
+	font-weight:bold;
+	float:left;
+}
+.skills{
+	float:left;
+	font-weight:bold;
+}
+
+.center{
+	position:absolute;
+	top: 90%;
+	left: 80%;
+	z-index: 100;
+}
+.logos{
+	float:left;
+}
+.creative-design{
+	margin-left: 70px;
+	text-align: left;
+}
+div.creative-design h5{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+.social-buttons{
+	border-top-style:solid;
+	border-top-color:#eeeeee;
+	border-top-width:1px;
+	padding-top: 20px;
+}
+.position h5{
+	font-weight:bold;
+}
+.position h6{
+	font-weight:500;
+}
+.our-clients{
+	margin-top: 3.25em;
+}
+.small-6.large-12.columns.clients{
+	display:inline-block;
+	margin-bottom:1.25em;
+	margin-top:0px;
+}
+.small-6.large-12.columns.clients img{
+	margin-right: 10px;
+}
+/* Progress Bar */
+.progress_container{
+    padding:1px;
+    width:195px;
+    height:9px;
+    overflow:hidden;
+    background:url('img/progress_container.png');
+    }
+ 
+.progress_bar{
+    height:9px;
+    width:0px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background:url('img/progress_bar.png');
+    }
+ 
+/*-----------------------------------------------------------------------------------*/
+/*Tipsy Tooltip style
+/*-----------------------------------------------------------------------------------*/ 
+ 
+  .tipsy { padding: 5px; font-size: 11px; position: absolute; z-index: 100000; }
+  .tipsy-inner { padding: 6px 8px 6px 8px; background-color: black; color: white; max-width: 200px; text-align: center; }
+  .tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+  .tipsy-arrow { position: absolute; background: url('img/tipsy.gif') no-repeat top left; width: 9px; height: 5px; }
+  .tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -4px; }
+  .tipsy-nw .tipsy-arrow { top: 0; left: 10px; }
+  .tipsy-ne .tipsy-arrow { top: 0; right: 10px; }
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -4px; background-position: bottom left; }
+  .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; background-position: bottom left; }
+  .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; background-position: bottom left; }
+  .tipsy-e .tipsy-arrow { top: 50%; margin-top: -4px; right: 0; width: 5px; height: 9px; background-position: top right; }
+  .tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; } 
+
+	
+
+
+
+
+
+
+
+
+
+
+
